@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Movie"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "MovieApi to get data from TMDB"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   MovieApi to get data from TMDB.This CocoaPods library helps you perform calculation.
                    DESC
 
-  spec.homepage     = "https://github.com/phuongdateh/movieApi"
+  spec.homepage     = "https://github.com/phuongdateh/movie"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/phuongdateh/movieApi.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/phuongdateh/movie.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
