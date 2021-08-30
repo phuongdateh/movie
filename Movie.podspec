@@ -26,6 +26,21 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
   MovieApi to get data from TMDB.This CocoaPods library helps you perform calculation.
+# Cocoapods
+
+> CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. Its used in just about every iOS project here at Intrepid.
+
+> Here is how to set it up.
+
+## Installing Cocoapods
+
+- Open Terminal
+- Enter command: `sudo gem install cocoapods`
+- Enter your password
+
+> Wait for this to finish, don't touch your terminal.  It might take a couple minutes
+
+- Run command `pod setup`
                    DESC
 
   spec.homepage     = "https://github.com/phuongdateh/movie"
@@ -133,7 +148,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "RxSwift"
-  spec.ios.deployment_target = "12.1"
+  spec.ios.deployment_target = "12.0"
   spec.swift_version = "4.2"
 
 end
